@@ -8,12 +8,12 @@
     <meta name="keywords" content="проектная компания ТОО Научно-инжиниринговый центр Энергетика" />
     <meta name="description" content="проектная компания ТОО Научно-инжиниринговый центр Энергетика" />
     <meta name="robots" content="all" />
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
     <!-- favicon -->
     <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-touch-icon.png">
@@ -27,15 +27,18 @@
 </head>
 
 <style>
+    a, a:hover {
+        color: inherit;
+    }
     body, h1, h2 {
         font-family: Comfortaa, 'Open Sans', Verdana, sans-serif;
         color: #efefef;
     }
-    h3, h4, h5, h6 {
+    h3, h4, h5, h6, {
         font-family: 'Open Sans', Verdana, sans-serif;
         color: #efefef;
     }
-        h1, h2 {
+        h1, h2, h3, h4, h5 {
         color: #092C54; /*dark blue*/
     }
 
@@ -206,6 +209,14 @@
         background-size: contain;
         color: #fefefe;
     }
+
+    #lic_1_1 {
+        background-image: url("lic/Лицензия ТОО НИЦ Энергетика2.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        color: #fefefe;
+    }
 	
 	#lic_2 {
         background-image: url("lic/ISO 9001-2016 (ISO 9001-2015).jpg");
@@ -304,24 +315,22 @@
                 <h1 class="w3-padding-large w3-animate-opacity"><strong>Проектируем ваш успех</strong></h1>
                 <h4 class="w3-padding-large w3-animate-opacity text_d_blue w3-hide-small"><strong>Лицензированная проектная компания</br>
                 Cпециализируемся на обьектах Энергетической отрасли</strong></h4>
+
             </div>
         </div>
     </div>
-    <!-- Section zero with paralax image END-->
 
-    <!-- Section about BEG 
-    <div id="one" class="w3-container w3-display-container w3-padding w3-card">
-        <div id="about" class="w3-container w3-content">
-            <div class="w3-padding-16 w3-animate-opacity">
-                <h2>О НАС</h2>
+    <div class="w3-padding">
+        <div class="container text-center">
+            <h2>Презентация о нашей компании</h2>
+            <div class="btn btn-danger nav-item">
+                <a class="nav-link" href="/lic/Презентация НИЦ энергетика.pdf">Скачать</a>
             </div>
         </div>
     </div>
-    <!-- Section about END-->
 
-    <!-- Services BEG-->
     <div id="two" class="w3-container w3-display-container w3-padding w3-card">
-	<div id="about" class="w3-container w3-center w3-content">
+	    <div id="about" class="w3-container w3-center w3-content">
             <div class="w3-padding-64 w3-animate-opacity">
                 <h2>МЫ ПРОЕКТИРУЕМ</h2>
             </div>
@@ -391,53 +400,82 @@
         </div>
     </div>
 
+    <div id="work" class="green  my-4 py-4">
+        <div class="container">
+            <h4 class="text-center  my-4 py-4">НАШИ РАБОТЫ</h4>
+            <div class="card-columns">
+                <div class="card text-center">
+                    <div class="card-body">
+                        <h5 class="card-title">Схема выдачи мощности ГТЭС 200 Уральск в сети АО «Западно-Казахстанская распределительная электросетевая компания</h5>
+                    </div>
+                </div>
 
-    <div id="four" class="w3-container w3-display-container w3-padding w3-card">
-        <div id="work" class="w3-container w3-center w3-content">
-            <div class="w3-padding-64 w3-animate-opacity">
-                <h2>НАШИ РАБОТЫ</h2>
-            </div>
-            <div class="w3-row-padding">
-                <div class="green w3-third w_card w3-section w3-padding-32 w3-card-2">
-                    <h5>Схема выдачи мощности ГТЭС 200 Уральск в сети АО «Западно-Казахстанская распределительная электросетевая компания</h5>
+                <div class="card text-center">
+                    <div class="card-body">
+                        <h5 class="card-title">Схема выдачи мощности от ГПУ 2х1,8 МВт на м-р Тасбулат</h5>
+                    </div>
                 </div>
-                <div class="green w3-third w_card w3-section w3-padding-32 w3-card-2">
-                    <h5>Схема выдачи мощности от ГПУ 2х1,8 МВт на м-р Тасбулат</h5>
+
+                <div class="card text-center">
+                    <div class="card-body">
+                        <h5 class="card-title">Разработка ПСД по объекту "Ветряная электрическая станция в г. Атырау"</h5>
+                    </div>
                 </div>
-                <div class="green w3-third w_card w3-section w3-padding-32 w3-card-2">
-                    <h5>Разработка ПСД по объекту "Ветряная электрическая станция в г. Атырау"</h5>
+
+                <div class="card text-center">
+                    <div class="card-body">
+                        <h5 class="card-title">Строительство ВЛ-6кВ для Вахтового поселка в Атырауской области</h5>
+                    </div>
                 </div>
-				<div class="green w3-third w_card w3-section w3-padding-32 w3-card-2">
-                    <h5>Строительство ВЛ-6кВ для Вахтового поселка в Атырауской области</h5>
+
+                <div class="card text-center">
+                    <div class="card-body">
+                        <h5 class="card-title">Установка и оснащение системой видеонаблюдения объектов "ГПЗ"</h5>
+                    </div>
                 </div>
-				<div class="green w3-third w_card w3-section w3-padding-32 w3-card-2">
-                    <h5>Установка и оснащение системой видеонаблюдения объектов "ГПЗ"</h5>
+
+                <div class="card text-center">
+                    <div class="card-body">
+                        <h5 class="card-title">Реконструкция ОРУ 110кВ подстанции ПС 500кВ АО "KEGOC"</h5>
+                    </div>
                 </div>
-                <div class="green w3-third w_card w3-section w3-padding-32 w3-card-2">
-                    <h5>Реконструкция ОРУ 110кВ подстанции ПС 500кВ АО "KEGOC"</h5>
+
+                <div class="card text-center">
+                    <div class="card-body">
+                        <h5 class="card-title">Реконструкция реакторной группы 500 кВ подстанции ПС 500кВ АО "KEGOC"</h5>
+                    </div>
                 </div>
-                <div class="green w3-third w_card w3-section w3-padding-32 w3-card-2">
-                    <h5>Реконструкция реакторной группы 500 кВ подстанции ПС 500кВ АО "KEGOC"</h5>
+
+                <div class="card text-center">
+                    <div class="card-body">
+                        <h5 class="card-title">Модернизация двухцепной ВЛ 110 кВ в сетях "Караганды Жарык" протяженностью 10 км</h5>
+                    </div>
                 </div>
-                <div class="green w3-third w_card w3-section w3-padding-32 w3-card-2">
-                    <h5>Модернизация двухцепной ВЛ 110 кВ в сетях "Караганды Жарык" протяженностью 10 км</h5>
+
+                <div class="card text-center">
+                    <div class="card-body">
+                        <h5 class="card-title">Строительство отпаек ВЛ 110 кВ в сетях "Караганды Жарык" протяженностью 5 км</h5>
+                    </div>
                 </div>
-                <div class="green w3-third w_card w3-section w3-padding-32 w3-card-2">
-                    <h5>Строительство отпаек ВЛ 110 кВ в сетях "Караганды Жарык" протяженностью 5 км</h5>
+                <div class="card text-center">
+                    <div class="card-body">
+                        <h5 class="card-title">Строительство ВЛ 110 кВ в сетях АО "МРЭК" протяженностью 35 км</h5>
+                    </div>
                 </div>
-                <div class="green w3-third w_card w3-section w3-padding-32 w3-card-2">
-                    <h5>Строительство ВЛ 110 кВ в сетях АО "МРЭК" протяженностью 35 км</h5>
+                <div class="card text-center">
+                    <div class="card-body">
+                        <h5 class="card-title">Модернизация подстанции ПС 35 кВ АО "МРЭК"</h5>
+                    </div>
                 </div>
-                <div class="green w3-third w_card w3-section w3-padding-32 w3-card-2">
-                    <h5>Модернизация подстанции ПС 35 кВ АО "МРЭК"</h5>
+                <div class="card text-center">
+                    <div class="card-body">
+                        <h5 class="card-title">Строительство КРУЭ 110 кВ в Восточно-Казахстанской области</h5>
+                    </div>
                 </div>
-                <div class="green w3-third w_card w3-section w3-padding-32 w3-card-2">
-                    <h5>УСтроительство КРУЭ 110 кВ в Восточно-Казахстанской области</h5>
-                </div>
+
             </div>
         </div>
     </div>
-
 
     <div id="five" class="w3-container w3-display-container w3-padding w3-card">
         <div id="info" class="w3-container w3-content">
@@ -500,9 +538,6 @@
 					<li class="w3-padding-16">
 						<a href="/lic/инвестор-м.pdf"><span class="w3-large">Инвестор-М</span></a>
 					</li>
-					<li class="w3-padding-16">
-						<a href="/lic/Презентация.pdf"><span class="w3-large">Презентация</span></a>
-					</li>
 				</ul>
 			</div>
         </div>
@@ -518,10 +553,23 @@
                 <div class="green l_card w3-section w3-padding-32 w3-card-2">
                     <a href="/lic/Лицензия ТОО НИЦ Энергетика.pdf"><h5>Государственная лицензия на Проектную деятельность III категории</h5></a>
                 </div>
+
                 <a href="/lic/Лицензия ТОО НИЦ Энергетика.pdf">
                     <div id="lic_1" class="l_card w3-section w3-padding-32"></div>
                 </a>
             </div>
+
+            <div class="w3-row-padding">
+                <div class="green l_card w3-section w3-padding-32 w3-card-2">
+                    <a href="/lic/Лицензия ТОО НИЦ Энергетика2.pdf"><h5>Государственная лицензия на Проектную деятельность III категории, обновленная</h5></a>
+                </div>
+
+                <a href="/lic/Лицензия ТОО НИЦ Энергетика2.pdf">
+                    <div id="lic_1_1" class="l_card w3-section w3-padding-32"></div>
+                </a>
+            </div>
+
+
 			
 			<div class="w3-row-padding">
 				<div class="green l_card w3-section w3-padding-32 w3-card-2">
@@ -545,10 +593,10 @@
                     <h5 class=" text_d_blue"><strong>ТОО "Научно-инжиниринговый центр Энергетика"</strong></h5><br />
                     <li class="w3-ul"><strong>БИН: </strong>160840010681</li>
                     <li class="w3-ul">
-                        <strong>ИИК: </strong>KZ45926180219Y719000<br />
-                        БИК KZKOKZKX<br />
-                        АО «Казкоммерцбанк»
-                    </li><br />
+                        <strong>ИИК: </strong>KZ236017131000033035<br />
+                        БИК HSBKKZKX<br />
+                        АО "Народный Банк Казахстана"
+                    </li>
                     <li class="w3-ul">
                         <strong>Адрес: </strong>Республика Казахстан,<br />
                         г. Алматы, 050000, 8 	мкр., дом 4 "А", офис 222
